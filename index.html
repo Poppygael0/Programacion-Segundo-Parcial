@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Palabra</title>
+		<link href="efectos02.css" rel="stylesheet" type="text/css">
+		<script src="prog_parcial.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<p class="titulo24">Obtener cuenta de correo de un empleado</p>
+		<form name="f_segundo_parcial">
+		<table border="3" width="70%">
+			<tr align="center">
+				<td><p>Indica el nombre de la persona </p></td>
+				<td><input name="nombre" type="text" class="campo" style="background-color: rgb(38, 10, 162);"></td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica el Ap. Paterno de la persona</p></td>
+				<td><input name="ap" type="text" class="campo" style="background-color: rgb(38, 10, 162);"></td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica el Ap. Materno de la persona</p></td>
+				<td><input name="am" type="text" class="campo style=background-color: rgb(38, 10, 162)"></td>
+			</tr>
+				<tr align="center">
+					<td><p>Indica la fecha de nacimiento de la persona</p></td>
+					<td><input name="fecha" type="date" class="campo" style="background-color: rgb(38, 10, 162)">
+					</td>
+				</tr>
+			<tr align="center">
+				<td><p>La cuenta del correo resultante es</p></td>
+				<td><input name="salida_correo" type="text" class="campo" disabled="true" style="background:gray;" ></td>
+			</tr>
+			<tr align="center">
+				<td><p>La contraseña resultante es</p></td>
+				<td><input name="salida_contrasena" type="text" class="campo" disabled="true" style="background:gray;"></td>
+			</tr>
+			<tr align="center">
+				<td><input name="b_ejecuta" type="button" class="boton" value="ejecutar" onClick="ejecutar()">
+				</td>
+				<td><input name="b_reset" type="reset" class="boton" value="Reiniciar" style="background:red;">
+				</td>
+			</tr>
+		</table>
+		</form>
+	</center></body>
+</html>
